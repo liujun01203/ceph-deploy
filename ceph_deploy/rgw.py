@@ -208,7 +208,7 @@ def colon_separated(s):
     name = s
     if s.count(':') == 1:
         (host, name) = s.split(':')
-    name = 'rgw.' + name
+    name = 'radosgw.' + name
     return (host, name)
 
 
